@@ -25,6 +25,7 @@ export default function IzvodacPregled() {
                 <th>Album</th>
                 <th>Trajanje</th>
                 <th>Datum izdavanja</th>
+                <th>Akcije</th>
             </tr>
         </thead>
         <tbody>
@@ -38,6 +39,7 @@ export default function IzvodacPregled() {
                     <td>
                         <FormatDatuma datum={smjer.datumIzdavanja} prikazZadano='-' />
                     </td>
+                    <td>{smjer.akcija}</td>
                 </tr>
             ))}
         </tbody>
