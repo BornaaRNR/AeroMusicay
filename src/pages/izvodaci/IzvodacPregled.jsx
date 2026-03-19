@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react'; // Dodano za praćenje stanja playera
+import { useEffect, useState } from 'react';
 import IzvodacService from '../../services/izvodaci/IzvodacService';
+import { Table } from 'react-bootstrap';
 
 export default function IzvodacPregled() {
-    // Stanje koje čuva trenutno odabranu pjesmu (u početku je null)
    const [izvodaci, setIzvodaci] = useState([])
 
    useEffect(() => {
@@ -17,11 +17,32 @@ export default function IzvodacPregled() {
 
    return(
     <>
-    <ol>
-        {izvodaci && izvodaci.map((izvodac)=>(
-            <li>{izvodac.naziv}</li>
-        ))}
-    </ol>
+    <Table>
+        <thead>
+            <tr>
+                <th>Naziv izvođača</th>
+                <th>Zanr</th>
+                <th>Pjesma</th>
+                <th>Album</th>
+                <th>Trajanje</th>
+                <th>Datum izdavanja</th>
+            </tr>
+        </thead>
+        <tbody>
+            {izvodaci && izvodaci.map((smjer)=>(
+                <tr>
+                    <td>{smjer.naziv}</td>
+                    <td>{smjer.zanr}</td>
+                    <td>{smjer.pjesma}</td>
+                    <td>{smjer.album}</td>
+                    <td className="text-end">{smjer.trajanje}</td>
+                    <td>
+                        <FormaDatuma datum={smjer.datumIzdavanja}/>
+                    </td>
+                </tr>
+            ))}
+        </tbody>
+    </Table>
     </>
    )
 }
