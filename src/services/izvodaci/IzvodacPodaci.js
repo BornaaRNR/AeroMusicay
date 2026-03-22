@@ -47,7 +47,7 @@ export const izvodaci=[
         album: 'Willy and the Poor Boys',
         trajanje: 2.21,
         datumIzdavanja: '1969-11-02T00:00:00',
-        akcija:'Dogovorit cemo se'
+        akcija:'Ima'
     },
     {
         sifra: 5,
@@ -187,17 +187,17 @@ export const izvodaci=[
         album: 'ABBA',
         trajanje: 3.32,
         datumIzdavanja: '1975-04-21T00:00:00',
-        akcija: 'Nema'
+        akcija: 'Ima'
     },
     {
         sifra: 19,
         naziv: 'ABBA',
         zanr: 'Pop, Disco',
-        pjesma: 'Gimme! Gimme! Gimme! (A Man After Midnight)',
+        pjesma: 'Gimme! Gimme! Gimme!',
         album: 'Greatest Hits Vol. 2',
         trajanje: 4.48,
         datumIzdavanja: '1979-10-12T00:00:00',
-        akcija: 'Nema'
+        akcija: 'Ima'
     },
     {
         sifra: 20,
@@ -287,7 +287,7 @@ export const izvodaci=[
         album: 'Poeta',
         trajanje: 3.58,
         datumIzdavanja: '1978-01-01T00:00:00',
-        akcija: 'Nema'
+        akcija: 'Ima'
     },
     {
         sifra: 29,
@@ -297,7 +297,7 @@ export const izvodaci=[
         album: 'Trag u beskraju',
         trajanje: 4.35,
         datumIzdavanja: '2002-09-20T00:00:00',
-        akcija: 'Nema'
+        akcija: 'Ima'
     },
     {
         sifra: 30,
@@ -317,7 +317,7 @@ export const izvodaci=[
         album: 'Happy Nation',
         trajanje: 4.11,
         datumIzdavanja: '1992-11-02T00:00:00',
-        akcija: 'Nema'
+        akcija: 'Ima'
     },
     {
         sifra: 32,
@@ -327,7 +327,7 @@ export const izvodaci=[
         album: 'Violator',
         trajanje: 4.15,
         datumIzdavanja: '1990-02-05T00:00:00',
-        akcija: 'Nema'
+        akcija: 'Ima'
     },
     {
         sifra: 33,
@@ -377,7 +377,7 @@ export const izvodaci=[
         album: 'Private Dancer',
         trajanje: 4.01,
         datumIzdavanja: '1984-05-29T00:00:00',
-        akcija: 'Nema'
+        akcija: 'Ima'
     },
     {
         sifra: 38,
@@ -397,7 +397,7 @@ export const izvodaci=[
         album: 'Mad Max Beyond Thunderdome',
         trajanje: 4.16,
         datumIzdavanja: '1985-07-08T00:00:00',
-        akcija: 'Nema'
+        akcija: 'Ima'
     },
     {
         sifra: 40,
@@ -407,7 +407,7 @@ export const izvodaci=[
         album: 'Self Control',
         trajanje: 4.08,
         datumIzdavanja: '1984-04-19T00:00:00',
-        akcija: 'Nema'
+        akcija: 'Ima'
     },
     {
         sifra: 41,
@@ -417,7 +417,7 @@ export const izvodaci=[
         album: 'Bijelo Dugme',
         trajanje: 4.00,
         datumIzdavanja: '1984-12-01T00:00:00',
-        akcija: 'Nema'
+        akcija: 'Ima'
     },
     {
         sifra: 42,
@@ -497,7 +497,7 @@ export const izvodaci=[
         album: 'True Blue',
         trajanje: 4.02,
         datumIzdavanja: '1987-02-25T00:00:00',
-        akcija: 'Nema'
+        akcija: 'Ima'
     },
     {
         sifra: 50,
@@ -507,7 +507,7 @@ export const izvodaci=[
         album: 'L\'Amour Toujours',
         trajanje: 3.58,
         datumIzdavanja: '1999-07-01T00:00:00',
-        akcija: 'Nema'
+        akcija: 'Ima'
     },
     {
         sifra: 51,
@@ -537,8 +537,476 @@ export const izvodaci=[
         album: 'In My Mind (Single)',
         trajanje: 3.05,
         datumIzdavanja: '2018-05-18T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 54,
+        naziv: 'Kavinsky',
+        zanr: 'Synthwave, Electro-House',
+        pjesma: 'Nightcall',
+        album: 'OutRun',
+        trajanje: 4.18,
+        datumIzdavanja: '2010-04-02T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 55,
+        naziv: 'Rihanna',
+        zanr: 'R&B, Contemporary Pop',
+        pjesma: 'Umbrella',
+        album: 'Good Girl Gone Bad',
+        trajanje: 4.35,
+        datumIzdavanja: '2007-03-29T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 56,
+        naziv: 'Rihanna',
+        zanr: 'Dance-pop, EDM',
+        pjesma: 'We Found Love',
+        album: 'Talk That Talk',
+        trajanje: 3.35,
+        datumIzdavanja: '2011-09-22T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 57,
+        naziv: 'Lady Gaga',
+        zanr: 'Dance-pop, Electropop',
+        pjesma: 'Bad Romance',
+        album: 'The Fame Monster',
+        trajanje: 4.54,
+        datumIzdavanja: '2009-10-26T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 58,
+        naziv: 'Lady Gaga',
+        zanr: 'Dance-pop, Synth-pop',
+        pjesma: 'Poker Face',
+        album: 'The Fame',
+        trajanje: 3.57,
+        datumIzdavanja: '2008-09-26T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 59,
+        naziv: 'Kesha',
+        zanr: 'Dance-pop, Electropop',
+        pjesma: 'TiK ToK',
+        album: 'Animal',
+        trajanje: 3.19,
+        datumIzdavanja: '2009-08-07T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 60,
+        naziv: 'Kesha',
+        zanr: 'Dance-pop, Power Pop',
+        pjesma: 'Die Young',
+        album: 'Warrior',
+        trajanje: 3.31,
+        datumIzdavanja: '2012-09-25T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 61,
+        naziv: 'NBSPLV',
+        zanr: 'Wave, Phonk',
+        pjesma: 'The Lost Soul Down',
+        album: 'The Lost Soul Down (Single)',
+        trajanje: 2.14,
+        datumIzdavanja: '2023-01-27T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 62,
+        naziv: 'NBSPLV',
+        zanr: 'Wave, Downtempo',
+        pjesma: 'Resonance',
+        album: 'Jade',
+        trajanje: 2.21,
+        datumIzdavanja: '2016-01-14T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 63,
+        naziv: 'NBSPLV',
+        zanr: 'Phonk, Wave',
+        pjesma: 'Downfall',
+        album: 'Downfall (Single)',
+        trajanje: 2.30,
+        datumIzdavanja: '2022-11-18T00:00:00',
         akcija: 'Nema'
     },
-    
-
+    {
+        sifra: 64,
+        naziv: 'Bob Marley & The Wailers',
+        zanr: 'Reggae',
+        pjesma: 'Three Little Birds',
+        album: 'Exodus',
+        trajanje: 3.00,
+        datumIzdavanja: '1977-06-03T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 65,
+        naziv: 'Bob Marley & The Wailers',
+        zanr: 'Reggae',
+        pjesma: 'No Woman, No Cry',
+        album: 'Live!',
+        trajanje: 7.07,
+        datumIzdavanja: '1975-12-05T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 66,
+        naziv: 'Bob Marley & The Wailers',
+        zanr: 'Reggae',
+        pjesma: 'Could You Be Loved',
+        album: 'Uprising',
+        trajanje: 3.57,
+        datumIzdavanja: '1980-06-10T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 67,
+        naziv: 'Bob Marley & The Wailers',
+        zanr: 'Reggae, Roots Reggae',
+        pjesma: 'Buffalo Soldier',
+        album: 'Confrontation',
+        trajanje: 4.17,
+        datumIzdavanja: '1983-05-23T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 68,
+        naziv: 'Bob Marley & The Wailers',
+        zanr: 'Roots Reggae',
+        pjesma: 'Redemption Song',
+        album: 'Uprising',
+        trajanje: 3.47,
+        datumIzdavanja: '1980-06-10T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 69,
+        naziv: 'MGMT',
+        zanr: 'Indie Pop, Synth-pop',
+        pjesma: 'Time to Pretend',
+        album: 'Oracular Spectacular',
+        trajanje: 4.21,
+        datumIzdavanja: '2008-03-03T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 70,
+        naziv: 'MGMT',
+        zanr: 'Indie Pop, Neo-Psychedelia',
+        pjesma: 'Kids',
+        album: 'Oracular Spectacular',
+        trajanje: 5.02,
+        datumIzdavanja: '2008-10-13T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 71,
+        naziv: 'MGMT',
+        zanr: 'Synth-pop, Dark Wave',
+        pjesma: 'Little Dark Age',
+        album: 'Little Dark Age',
+        trajanje: 4.59,
+        datumIzdavanja: '2017-10-17T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 72,
+        naziv: 'Crystal Castles',
+        zanr: 'Synth-pop, Witch House',
+        pjesma: 'Crimewave',
+        album: 'Crystal Castles (I)',
+        trajanje: 4.18,
+        datumIzdavanja: '2007-08-13T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 73,
+        naziv: 'Crystal Castles',
+        zanr: 'Electronic, Shoegaze',
+        pjesma: 'Not in Love (feat. Robert Smith)',
+        album: 'Crystal Castles (II)',
+        trajanje: 3.48,
+        datumIzdavanja: '2010-10-26T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 74,
+        naziv: 'Crystal Castles',
+        zanr: 'Witch House, Electro',
+        pjesma: 'Transvestites Can Be Cannibals Too',
+        album: 'Crystal Castles (III)',
+        trajanje: 3.12,
+        datumIzdavanja: '2012-11-07T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 75,
+        naziv: 'Crystal Castles',
+        zanr: 'Dark Wave, Electronic',
+        pjesma: 'Kerosene',
+        album: 'Crystal Castles (III)',
+        trajanje: 3.12,
+        datumIzdavanja: '2013-01-20T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 76,
+        naziv: 'Basshunter',
+        zanr: 'Eurodance, Hands Up',
+        pjesma: 'Boten Anna',
+        album: 'LOL <(^^,)>',
+        trajanje: 3.29,
+        datumIzdavanja: '2006-05-09T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 77,
+        naziv: 'Basshunter',
+        zanr: 'Eurodance, Trance',
+        pjesma: 'DotA',
+        album: 'LOL <(^^,)>',
+        trajanje: 3.21,
+        datumIzdavanja: '2006-09-04T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 78,
+        naziv: 'Basshunter',
+        zanr: 'Eurodance, Dance-pop',
+        pjesma: 'Now You\'re Gone',
+        album: 'Now You\'re Gone - The Album',
+        trajanje: 2.30,
+        datumIzdavanja: '2007-12-31T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 79,
+        naziv: 'Basshunter',
+        zanr: 'Eurodance, Hands Up',
+        pjesma: 'All I Ever Wanted',
+        album: 'Now You\'re Gone - The Album',
+        trajanje: 2.59,
+        datumIzdavanja: '2008-06-29T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 80,
+        naziv: 'Chuck Berry',
+        zanr: 'Rock and Roll, Rhythm and Blues',
+        pjesma: 'Johnny B. Goode',
+        album: 'Chuck Berry Is on Top',
+        trajanje: 2.41,
+        datumIzdavanja: '1958-03-31T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 81,
+        naziv: 'Chuck Berry',
+        zanr: 'Rock and Roll',
+        pjesma: 'You Never Can Tell',
+        album: 'St. Louis to Liverpool',
+        trajanje: 2.43,
+        datumIzdavanja: '1964-01-01T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 82,
+        naziv: 'Chuck Berry',
+        zanr: 'Rock and Roll, R&B',
+        pjesma: 'Maybellene',
+        album: 'Rock, Rock, Rock!',
+        trajanje: 2.30,
+        datumIzdavanja: '1955-07-01T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 83,
+        naziv: 'Chuck Berry',
+        zanr: 'Rock and Roll',
+        pjesma: 'Roll Over Beethoven',
+        album: 'Rock, Rock, Rock!',
+        trajanje: 2.24,
+        datumIzdavanja: '1956-05-01T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 84,
+        naziv: 'Roy Orbison',
+        zanr: 'Rock and Roll, Rockabilly',
+        pjesma: 'Oh, Pretty Woman',
+        album: 'Orbisongs',
+        trajanje: 2.58,
+        datumIzdavanja: '1964-08-01T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 85,
+        naziv: 'Ritchie Valens',
+        zanr: 'Rock and Roll, Doo-wop',
+        pjesma: 'We Belong Together',
+        album: 'Ritchie Valens',
+        trajanje: 1.57,
+        datumIzdavanja: '1959-02-01T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 86,
+        naziv: 'Paul Anka',
+        zanr: 'Pop, Vocal Jazz',
+        pjesma: 'Put Your Head on My Shoulder',
+        album: 'Paul Anka Sings His Big 15',
+        trajanje: 2.34,
+        datumIzdavanja: '1959-08-01T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 87,
+        naziv: 'Frank Sinatra',
+        zanr: 'Traditional Pop, Vocal Jazz',
+        pjesma: 'My Way',
+        album: 'My Way',
+        trajanje: 4.35,
+        datumIzdavanja: '1969-03-01T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 88,
+        naziv: 'John Denver',
+        zanr: 'Country, Folk Rock',
+        pjesma: 'Take Me Home, Country Roads',
+        album: 'Poems, Prayers & Promises',
+        trajanje: 3.08,
+        datumIzdavanja: '1971-04-12T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 89,
+        naziv: 'The Highwaymen',
+        zanr: 'Outlaw Country',
+        pjesma: 'Highwayman',
+        album: 'Highwayman',
+        trajanje: 3.00,
+        datumIzdavanja: '1985-05-06T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 90,
+        naziv: 'Johnny Cash',
+        zanr: 'Country, Rockabilly',
+        pjesma: 'Ring of Fire',
+        album: 'Ring of Fire: The Best of Johnny Cash',
+        trajanje: 2.37,
+        datumIzdavanja: '1963-03-25T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 91,
+        naziv: 'Waylon Jennings & Willie Nelson',
+        zanr: 'Outlaw Country',
+        pjesma: 'Mammas Don\'t Let Your Babies Grow Up to Be Cowboys',
+        album: 'Waylon & Willie',
+        trajanje: 2.32,
+        datumIzdavanja: '1978-01-01T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 92,
+        naziv: 'Juice Newton',
+        zanr: 'Country Pop, Soft Rock',
+        pjesma: 'Queen of Hearts',
+        album: 'Juice',
+        trajanje: 3.24,
+        datumIzdavanja: '1981-02-01T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 93,
+        naziv: 'Conway Twitty & Loretta Lynn',
+        zanr: 'Country',
+        pjesma: 'Louisiana Woman, Mississippi Man',
+        album: 'Louisiana Woman, Mississippi Man',
+        trajanje: 2.32,
+        datumIzdavanja: '1973-07-09T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 94,
+        naziv: 'Merle Haggard',
+        zanr: 'Country',
+        pjesma: 'Always Wanting You',
+        album: 'Keep Movin\' On',
+        trajanje: 3.07,
+        datumIzdavanja: '1975-02-01T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 95,
+        naziv: 'George Strait',
+        zanr: 'Country',
+        pjesma: 'All My Ex\'s Live in Texas',
+        album: 'Ocean Front Property',
+        trajanje: 3.20,
+        datumIzdavanja: '1987-04-06T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 96,
+        naziv: 'Asleep at the Wheel',
+        zanr: 'Western Swing, Country',
+        pjesma: 'The Letter That Johnny Walker Read',
+        album: 'Texas Gold',
+        trajanje: 3.15,
+        datumIzdavanja: '1975-06-01T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 97,
+        naziv: 'Patsy Cline',
+        zanr: 'Country, Nashville Sound',
+        pjesma: 'Three Cigarettes in an Ashtray',
+        album: 'Patsy Cline (1957)',
+        trajanje: 2.14,
+        datumIzdavanja: '1957-08-05T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 98,
+        naziv: 'Mickey Gilley',
+        zanr: 'Country, Honky-tonk',
+        pjesma: 'Make The World Go Away',
+        album: 'You Don\'t Know Me',
+        trajanje: 2.50,
+        datumIzdavanja: '1981-07-01T00:00:00',
+        akcija: 'Ima'
+    },
+    {
+        sifra: 99,
+        naziv: 'Eddie Rabbitt',
+        zanr: 'Country Pop, Soft Rock',
+        pjesma: 'I Love a Rainy Night',
+        album: 'Horizon',
+        trajanje: 3.10,
+        datumIzdavanja: '1980-11-08T00:00:00',
+        akcija: 'Nema'
+    },
+    {
+        sifra: 100,
+        naziv: 'Country Family',
+        zanr: 'Country, Honky-tonk',
+        pjesma: 'It Don\'t Hurt Anymore',
+        album: 'K-Rose Country Classics',
+        trajanje: 2.27,
+        datumIzdavanja: '1974-01-01T00:00:00',
+        akcija: 'Nema'
+    },
 ]
