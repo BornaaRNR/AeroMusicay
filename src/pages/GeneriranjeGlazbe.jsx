@@ -203,7 +203,7 @@ export default function GeneriranjeGlazbe() {
                         </Row>
                     </div>
 
-                    {(DATA_SOURCE !== 'memorija') && (
+                    {(DATA_SOURCE == 'memorija' || DATA_SOURCE == 'localStorage') && (
                         <div className="mt-4">
                             <hr />
                             <h5 className="text-muted">Pretakanje podataka</h5>

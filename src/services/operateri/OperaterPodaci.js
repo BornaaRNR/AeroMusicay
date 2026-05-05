@@ -1,5 +1,5 @@
 import bcrypt from 'bcryptjs'
-const hashiranaLozinka = bcrypt.hashSync('AeroMusicay!', 10)
+const hashiranaLozinka = bcrypt.hashSync('AeroMusicay1!', 10)
 
 export const operateri = [
     {

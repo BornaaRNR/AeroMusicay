@@ -27,6 +27,8 @@ export const RouteNames = {
 
     LOGIN: '/login',
     REGISTRACIJA: '/registracija',
+
+    NADZORNA_PLOCA: '/nadzorna-ploca'
 }
 
 // memorija, localStorage

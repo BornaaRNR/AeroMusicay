@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom"
 import { ShemaLogin } from "../../schemas/ShemaOperater"
 import { useState } from "react"
 import useAuth from "../../hooks/useAuth"
+import { Button, Card, Col, Container, Form, Row } from "react-bootstrap"
 
 export default function Login() {
 
@@ -45,8 +46,8 @@ export default function Login() {
                     <Card className="shadow-sm">
                         <Card.Body>
                             <Card.Title className="mb-4">Podaci za prijavu</Card.Title>
-                            admin@edunova.hr <br />
-                            Edunova123!
+                            admin@tvoja-glazba.hr <br />
+                            AeroMusicay1!
                             {errors.opce && (
                                 <div className="alert alert-danger" role="alert">
                                     {errors.opce}
