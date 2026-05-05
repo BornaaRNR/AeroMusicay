@@ -14,12 +14,19 @@ export const RouteNames = {
     ALBUMI_NOVI: '/albumi/novi',
     ALBUMI_PROMJENA: '/albumi/:sifra',
 
-
     PJESME: '/pjesme',
     PJESME_NOVI: '/pjesme/novi',
     PJESME_PROMJENA: '/pjesme/:sifra',
 
-    GENERIRANJE_GLAZBE: '/generiranje-glazbe'
+    OPERATERI: '/operateri',
+    OPERATERI_NOVI: '/operateri/novi',
+    OPERATERI_PROMJENA: '/operateri/:sifra',
+    OPERATERI_PROMJENA_LOZINKE: '/operateri/promjena-lozinke',
+
+    GENERIRANJE_GLAZBE: '/generiranje-glazbe',
+
+    LOGIN: '/login',
+    REGISTRACIJA: '/registracija',
 }
 
 // memorija, localStorage
@@ -29,5 +36,6 @@ export const PrefixStorage = {
     ZANROVI: 'zanrovi',
     IZVODACI: 'izvodaci',
     ALBUMI: 'albumi',
-    PJESME: 'pjesme'
+    PJESME: 'pjesme',
+    OPERATERI: 'operateri'
 }
