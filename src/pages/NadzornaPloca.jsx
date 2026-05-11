@@ -2,7 +2,7 @@ import { IME_APLIKACIJE } from "../constants";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import { useState, useEffect } from "react";
 import Highcharts from 'highcharts';
-import HighchartsReact from "highcharts-react-official"; // Zadržavamo samo ovaj import
+import {HighchartsReact}  from 'highcharts-react-official';
 
 // Putanje prilagođene tvojoj strukturi
 import PjesmaService from "../services/pjesme/PjesmaService";
@@ -10,7 +10,6 @@ import ZanrService from "../services/zanrovi/ZanrService";
 
 export default function NadzornaPloca() {
     const [podaciGrafikon, setPodaciGrafikon] = useState([]);
-    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         document.title = 'Nadzorna ploča | ' + IME_APLIKACIJE;
@@ -19,7 +18,6 @@ export default function NadzornaPloca() {
 
     async function fetchData() {
         try {
-            setLoading(true);
             const pjesmeRezultat = await PjesmaService.get();
             const zanroviRezultat = await ZanrService.get();
 
@@ -47,25 +45,29 @@ export default function NadzornaPloca() {
         } catch (error) {
             console.error('Greška pri dohvaćanju podataka za grafikon:', error);
         } finally {
-            setLoading(false);
         }
     }
 
     // PROMJENA: Nazvali smo varijablu točno onako kako je pozivaš dolje
     const grafikonOpcije = {
         chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false,
             type: 'pie',
-            backgroundColor: 'transparent'
         },
         title: {
-            text: 'Zastupljenost žanrova u pjesmama',
-            align: 'center'
+            text: 'Broj pjesama po žanrovima',
+            align: 'left',
         },
         tooltip: {
-            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>',
         },
         accessibility: {
-            enabled: false
+            enabled: false,
+            point: {
+                valueSuffix: '%',
+            },
         },
         plotOptions: {
             pie: {
@@ -73,16 +75,10 @@ export default function NadzornaPloca() {
                 cursor: 'pointer',
                 dataLabels: {
                     enabled: true,
-                    format: '<b>{point.name}</b>: {point.percentage:.1f} %'
+                    format: '<b>{point.name}</b>',
                 },
-                showInLegend: true
-            }
+            },
         },
-        series: [{
-            name: 'Pjesme',
-            colorByPoint: true,
-            data: podaciGrafikon
-        }]
     };
 
     return (
@@ -94,19 +90,22 @@ export default function NadzornaPloca() {
                             <h2 className="fw-bold mb-1">Nadzorna ploča</h2>
                             <p className="text-muted">Logirani ste u sustav {IME_APLIKACIJE}</p>
                             <hr />
-                            
-                            {loading ? (
-                                <div className="text-center py-5">Učitavam podatke...</div>
-                            ) : podaciGrafikon.length > 0 ? (
-                                <HighchartsReact 
-                                    highcharts={Highcharts}
-                                    options={grafikonOpcije} // Sada varijabla postoji pod ovim imenom
-                                />
-                            ) : (
-                                <div className="text-center py-5 text-muted">
-                                    Nema podataka za prikaz grafikona.
-                                </div>
-                            )}
+
+                            {podaciGrafikon && podaciGrafikon.length > 0 && (
+                            <HighchartsReact 
+                                highcharts={Highcharts}
+                                options={{
+                                    ...grafikonOpcije,
+                                    series: [
+                                        {
+                                            name: 'Pjesme',
+                                            colorByPoint: true,
+                                            data: podaciGrafikon,
+                                        }
+                                    ]
+                                }}
+                            />)}
+
                         </Card.Body>
                     </Card>
                 </Col>
