@@ -70,13 +70,9 @@ export default function AlbumPregled() {
     }
 
     async function generirajPDFZaAlbum(album) {
-        const s = Array.isArray(album.izvodac) ? album.izvodac[0] : album.izvodac;
-        const izvodac = izvodaci.find(i => i.sifra == s);
-        
-        if (!izvodac) {
-            alert('Izvođač nije pronađen');
-            return;
-        }
+     
+        const izvodac = album.izvodac
+     
 
         const odgovorPjesme = await PjesmaService.get();
         if (!odgovorPjesme.success) {
