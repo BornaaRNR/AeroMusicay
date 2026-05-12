@@ -33,7 +33,7 @@ export default function Registracija() {
         const rezultat = ShemaOperater.safeParse({
             email: objektPodataka.email,
             lozinka: objektPodataka.lozinka,
-            uloga: 'korisnik'
+            uloga: 'admin'
         })
 
         if (!rezultat.success) {
