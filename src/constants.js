@@ -21,7 +21,7 @@ export const RouteNames = {
     OPERATERI: '/operateri',
     OPERATERI_NOVI: '/operateri/novi',
     OPERATERI_PROMJENA: '/operateri/:sifra',
-    OPERATERI_PROMJENA_LOZINKE: '/operateri/promjena-lozinke',
+    OPERATERI_PROMJENA_LOZINKE: '/operateri/:sifra/lozinka',
 
     GENERIRANJE_GLAZBE: '/generiranje-glazbe',
 
