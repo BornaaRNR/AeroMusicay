@@ -39,7 +39,7 @@ function App() {
       <Container className="mt-3" style={{ marginBottom: '100px' }}>
         <Routes>
           <Route path={RouteNames.HOME} element={<Home />} />
-
+          <Route path={RouteNames.GENERIRANJE_GLAZBE} element={<GeneriranjeGlazbe />} />
           {isLoggedIn ? (
             <>
               <Route path={RouteNames.NADZORNA_PLOCA} element={<NadzornaPloca />} />
@@ -66,7 +66,7 @@ function App() {
                   <Route path={RouteNames.OPERATERI_NOVI} element={<OperaterNovi />} />
                   <Route path={RouteNames.OPERATERI_PROMJENA} element={<OperaterPromjena />} />
                   <Route path={RouteNames.OPERATERI_PROMJENA_LOZINKE} element={<OperaterPromjenaLozinke />} />
-                  <Route path={RouteNames.GENERIRANJE_GLAZBE} element={<GeneriranjeGlazbe />} />
+                  
                 </>
               )}
             </>
